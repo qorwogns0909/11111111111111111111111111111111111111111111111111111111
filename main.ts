@@ -1,0 +1,26 @@
+input.onButtonPressed(Button.A, function () {
+    HelloBot.CarCtrlSpeed(HelloBot.CarState.Car_Run, 70)
+})
+input.onButtonPressed(Button.B, function () {
+    HelloBot.CarCtrlSpeed(HelloBot.CarState.Car_Run, 0)
+})
+function ㅔ1 () {
+    music.playTone(370, music.beat(BeatFraction.Whole))
+    music.playTone(294, music.beat(BeatFraction.Whole))
+    music.playTone(494, music.beat(BeatFraction.Whole))
+    music.playTone(370, music.beat(BeatFraction.Whole))
+    music.playTone(330, music.beat(BeatFraction.Whole))
+    music.playTone(440, music.beat(BeatFraction.Whole))
+    music.playTone(277, music.beat(BeatFraction.Whole))
+    music.playTone(330, music.beat(BeatFraction.Whole))
+    music.playTone(294, music.beat(BeatFraction.Double))
+    music.playTone(294, music.beat(BeatFraction.Half))
+    music.playTone(370, music.beat(BeatFraction.Half))
+    music.playTone(330, music.beat(BeatFraction.Half))
+    music.playTone(294, music.beat(BeatFraction.Half))
+    music.playTone(277, music.beat(BeatFraction.Whole))
+    music.playTone(277, music.beat(BeatFraction.Half))
+    music.playTone(294, music.beat(BeatFraction.Half))
+    music.playTone(277, music.beat(BeatFraction.Whole))
+    music.playTone(220, music.beat(BeatFraction.Whole))
+}
